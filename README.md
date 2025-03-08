@@ -84,12 +84,7 @@ This repository provides a solution to generate multiple copies of a Vite+Vue we
      ]
      ```
 
-3. **Prepare Homepage Vue Files**  
-   In the `homepages/` folder, add your homepage Vue files (e.g., `home-1.vue`, `home-2.vue`, `home-3.vue`). Each file should at minimum include a `<template>` block containing the homepage content. For example, `home-1.vue` might look like:
-   ```vue
-   <template>
-     <div>
-       <h1>Welcome to Sepatune!</h1>
-       <p>Your one-stop shop for quality products.</p>
-     </div>
-   </template>
+3. **Run the Generation Script**  
+   Make sure `generate-multiple.sh` is executable:
+   ```bash
+   chmod +x generate-multiple.sh
