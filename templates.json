@@ -1,0 +1,502 @@
+[
+  {
+    "projectName": "Sepatune.com",
+    "title": "Sepatune.com",
+    "homepageFile": "home-1.html",
+    "theme": "light",
+    "colors": {
+      "primary": "#ffffff",
+      "secondary": "#000000"
+    }
+  },
+  {
+    "projectName": "ToteKita.com",
+    "title": "ToteKita.com",
+    "homepageFile": "home-2.html",
+    "theme": "dark",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#ffffff"
+    }
+  },
+  {
+    "projectName": "AksesoRise.com",
+    "title": "AksesoRise.com",
+    "homepageFile": "home-3.html",
+    "theme": "blue",
+    "colors": {
+      "primary": "#1E3A8A",
+      "secondary": "#60A5FA"
+    }
+  },
+  {
+    "projectName": "SnackTasti.com",
+    "title": "SnackTasti.com",
+    "homepageFile": "home-1.html",
+    "theme": "pastel",
+    "colors": {
+      "primary": "#F9A8D4",
+      "secondary": "#FDE68A"
+    }
+  },
+  {
+    "projectName": "Helmsters.com",
+    "title": "Helmsters.com",
+    "homepageFile": "home-2.html",
+    "theme": "light",
+    "colors": {
+      "primary": "#ffffff",
+      "secondary": "#000000"
+    }
+  },
+  {
+    "projectName": "CampingNesia.com",
+    "title": "CampingNesia.com",
+    "homepageFile": "home-3.html",
+    "theme": "dark",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#ffffff"
+    }
+  },
+  {
+    "projectName": "mancings.com",
+    "title": "mancings.com",
+    "homepageFile": "home-1.html",
+    "theme": "blue",
+    "colors": {
+      "primary": "#1E3A8A",
+      "secondary": "#60A5FA"
+    }
+  },
+  {
+    "projectName": "Aromaqu.com",
+    "title": "Aromaqu.com",
+    "homepageFile": "home-2.html",
+    "theme": "pastel",
+    "colors": {
+      "primary": "#F9A8D4",
+      "secondary": "#FDE68A"
+    }
+  },
+  {
+    "projectName": "MainanPintar.com",
+    "title": "MainanPintar.com",
+    "homepageFile": "home-3.html",
+    "theme": "light",
+    "colors": {
+      "primary": "#ffffff",
+      "secondary": "#000000"
+    }
+  },
+  {
+    "projectName": "LegoLoka.com",
+    "title": "LegoLoka.com",
+    "homepageFile": "home-1.html",
+    "theme": "dark",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#ffffff"
+    }
+  },
+  {
+    "projectName": "Greenesian.com",
+    "title": "Greenesian.com",
+    "homepageFile": "home-2.html",
+    "theme": "blue",
+    "colors": {
+      "primary": "#1E3A8A",
+      "secondary": "#60A5FA"
+    }
+  },
+  {
+    "projectName": "LampuUnik.com",
+    "title": "LampuUnik.com",
+    "homepageFile": "home-3.html",
+    "theme": "pastel",
+    "colors": {
+      "primary": "#F9A8D4",
+      "secondary": "#FDE68A"
+    }
+  },
+  {
+    "projectName": "Dapurpedia.com",
+    "title": "Dapurpedia.com",
+    "homepageFile": "home-1.html",
+    "theme": "light",
+    "colors": {
+      "primary": "#ffffff",
+      "secondary": "#000000"
+    }
+  },
+  {
+    "projectName": "FurniMood.com",
+    "title": "FurniMood.com",
+    "homepageFile": "home-2.html",
+    "theme": "dark",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#ffffff"
+    }
+  },
+  {
+    "projectName": "Hoodiean.com",
+    "title": "Hoodiean.com",
+    "homepageFile": "home-3.html",
+    "theme": "blue",
+    "colors": {
+      "primary": "#1E3A8A",
+      "secondary": "#60A5FA"
+    }
+  },
+  {
+    "projectName": "UrbanBatik.com",
+    "title": "UrbanBatik.com",
+    "homepageFile": "home-1.html",
+    "theme": "pastel",
+    "colors": {
+      "primary": "#F9A8D4",
+      "secondary": "#FDE68A"
+    }
+  },
+  {
+    "projectName": "GayaSantai.com",
+    "title": "GayaSantai.com",
+    "homepageFile": "home-2.html",
+    "theme": "light",
+    "colors": {
+      "primary": "#ffffff",
+      "secondary": "#000000"
+    }
+  },
+  {
+    "projectName": "JajananKita.com",
+    "title": "JajananKita.com",
+    "homepageFile": "home-3.html",
+    "theme": "dark",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#ffffff"
+    }
+  },
+  {
+    "projectName": "paketGlowing.com",
+    "title": "paketGlowing.com",
+    "homepageFile": "home-1.html",
+    "theme": "blue",
+    "colors": {
+      "primary": "#1E3A8A",
+      "secondary": "#60A5FA"
+    }
+  },
+  {
+    "projectName": "BukuSeru.com",
+    "title": "BukuSeru.com",
+    "homepageFile": "home-2.html",
+    "theme": "pastel",
+    "colors": {
+      "primary": "#F9A8D4",
+      "secondary": "#FDE68A"
+    }
+  },
+  {
+    "projectName": "Piring-Cantik.com",
+    "title": "Piring-Cantik.com",
+    "homepageFile": "home-3.html",
+    "theme": "light",
+    "colors": {
+      "primary": "#ffffff",
+      "secondary": "#000000"
+    }
+  },
+  {
+    "projectName": "KomporModern.com",
+    "title": "KomporModern.com",
+    "homepageFile": "home-1.html",
+    "theme": "dark",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#ffffff"
+    }
+  },
+  {
+    "projectName": "BayiCeria.com",
+    "title": "BayiCeria.com",
+    "homepageFile": "home-2.html",
+    "theme": "blue",
+    "colors": {
+      "primary": "#1E3A8A",
+      "secondary": "#60A5FA"
+    }
+  },
+  {
+    "projectName": "Aquariumku.com",
+    "title": "Aquariumku.com",
+    "homepageFile": "home-3.html",
+    "theme": "pastel",
+    "colors": {
+      "primary": "#F9A8D4",
+      "secondary": "#FDE68A"
+    }
+  },
+  {
+    "projectName": "Petloveyou.com",
+    "title": "Petloveyou.com",
+    "homepageFile": "home-1.html",
+    "theme": "light",
+    "colors": {
+      "primary": "#ffffff",
+      "secondary": "#000000"
+    }
+  },
+  {
+    "projectName": "snackcemalcemil.com",
+    "title": "snackcemalcemil.com",
+    "homepageFile": "home-2.html",
+    "theme": "dark",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#ffffff"
+    }
+  },
+  {
+    "projectName": "menyibakbuku.com",
+    "title": "menyibakbuku.com",
+    "homepageFile": "home-3.html",
+    "theme": "blue",
+    "colors": {
+      "primary": "#1E3A8A",
+      "secondary": "#60A5FA"
+    }
+  },
+  {
+    "projectName": "buntobite.com",
+    "title": "buntobite.com",
+    "homepageFile": "home-1.html",
+    "theme": "pastel",
+    "colors": {
+      "primary": "#F9A8D4",
+      "secondary": "#FDE68A"
+    }
+  },
+  {
+    "projectName": "lieeymakeup.com",
+    "title": "lieeymakeup.com",
+    "homepageFile": "home-2.html",
+    "theme": "light",
+    "colors": {
+      "primary": "#ffffff",
+      "secondary": "#000000"
+    }
+  },
+  {
+    "projectName": "waliklicious.com",
+    "title": "waliklicious.com",
+    "homepageFile": "home-3.html",
+    "theme": "dark",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#ffffff"
+    }
+  },
+  {
+    "projectName": "mawchee.com",
+    "title": "mawchee.com",
+    "homepageFile": "home-1.html",
+    "theme": "blue",
+    "colors": {
+      "primary": "#1E3A8A",
+      "secondary": "#60A5FA"
+    }
+  },
+  {
+    "projectName": "flowfibouquet.com",
+    "title": "flowfibouquet.com",
+    "homepageFile": "home-2.html",
+    "theme": "pastel",
+    "colors": {
+      "primary": "#F9A8D4",
+      "secondary": "#FDE68A"
+    }
+  },
+  {
+    "projectName": "mienyemek.com",
+    "title": "mienyemek.com",
+    "homepageFile": "home-3.html",
+    "theme": "light",
+    "colors": {
+      "primary": "#ffffff",
+      "secondary": "#000000"
+    }
+  },
+  {
+    "projectName": "miumiustyle.com",
+    "title": "miumiustyle.com",
+    "homepageFile": "home-1.html",
+    "theme": "dark",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#ffffff"
+    }
+  },
+  {
+    "projectName": "rekomenprabot.com",
+    "title": "rekomenprabot.com",
+    "homepageFile": "home-2.html",
+    "theme": "blue",
+    "colors": {
+      "primary": "#1E3A8A",
+      "secondary": "#60A5FA"
+    }
+  },
+  {
+    "projectName": "cimibul.com",
+    "title": "cimibul.com",
+    "homepageFile": "home-3.html",
+    "theme": "pastel",
+    "colors": {
+      "primary": "#F9A8D4",
+      "secondary": "#FDE68A"
+    }
+  },
+  {
+    "projectName": "solbrut.com",
+    "title": "solbrut.com",
+    "homepageFile": "home-1.html",
+    "theme": "light",
+    "colors": {
+      "primary": "#ffffff",
+      "secondary": "#000000"
+    }
+  },
+  {
+    "projectName": "hairdo.id",
+    "title": "hairdo.id",
+    "homepageFile": "home-2.html",
+    "theme": "dark",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#ffffff"
+    }
+  },
+  {
+    "projectName": "MelodiKita.com",
+    "title": "MelodiKita.com",
+    "homepageFile": "home-3.html",
+    "theme": "blue",
+    "colors": {
+      "primary": "#1E3A8A",
+      "secondary": "#60A5FA"
+    }
+  },
+  {
+    "projectName": "KoleksiUnik.com",
+    "title": "KoleksiUnik.com",
+    "homepageFile": "home-1.html",
+    "theme": "pastel",
+    "colors": {
+      "primary": "#F9A8D4",
+      "secondary": "#FDE68A"
+    }
+  },
+  {
+    "projectName": "indahpedia.com",
+    "title": "indahpedia.com",
+    "homepageFile": "home-2.html",
+    "theme": "light",
+    "colors": {
+      "primary": "#ffffff",
+      "secondary": "#000000"
+    }
+  },
+  {
+    "projectName": "lapakwidi.com",
+    "title": "lapakwidi.com",
+    "homepageFile": "home-3.html",
+    "theme": "dark",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#ffffff"
+    }
+  },
+  {
+    "projectName": "lisensiku.com",
+    "title": "lisensiku.com",
+    "homepageFile": "home-1.html",
+    "theme": "blue",
+    "colors": {
+      "primary": "#1E3A8A",
+      "secondary": "#60A5FA"
+    }
+  },
+  {
+    "projectName": "terilhami.com",
+    "title": "terilhami.com",
+    "homepageFile": "home-2.html",
+    "theme": "pastel",
+    "colors": {
+      "primary": "#F9A8D4",
+      "secondary": "#FDE68A"
+    }
+  },
+  {
+    "projectName": "bonsaibagus.com",
+    "title": "bonsaibagus.com",
+    "homepageFile": "home-3.html",
+    "theme": "light",
+    "colors": {
+      "primary": "#ffffff",
+      "secondary": "#000000"
+    }
+  },
+  {
+    "projectName": "yulensa.com",
+    "title": "yulensa.com",
+    "homepageFile": "home-1.html",
+    "theme": "dark",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#ffffff"
+    }
+  },
+  {
+    "projectName": "hp-murah.com",
+    "title": "hp-murah.com",
+    "homepageFile": "home-2.html",
+    "theme": "blue",
+    "colors": {
+      "primary": "#1E3A8A",
+      "secondary": "#60A5FA"
+    }
+  },
+  {
+    "projectName": "tuppay.id",
+    "title": "tuppay.id",
+    "homepageFile": "home-3.html",
+    "theme": "pastel",
+    "colors": {
+      "primary": "#F9A8D4",
+      "secondary": "#FDE68A"
+    }
+  },
+  {
+    "projectName": "Gamevian.com",
+    "title": "Gamevian.com",
+    "homepageFile": "home-1.html",
+    "theme": "light",
+    "colors": {
+      "primary": "#ffffff",
+      "secondary": "#000000"
+    }
+  },
+  {
+    "projectName": "diamonesia.com",
+    "title": "diamonesia.com",
+    "homepageFile": "home-2.html",
+    "theme": "dark",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#ffffff"
+    }
+  }
+]
