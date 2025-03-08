@@ -1,4 +1,3 @@
-# webshop-template
 # Dynamic Webshop Generator
 
 This repository provides a solution to generate multiple copies of a Vite+Vue webshop template with dynamic content. Each generated project can have its own title, homepage content, and theme settings by using external JSON configuration files.
