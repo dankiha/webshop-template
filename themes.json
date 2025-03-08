@@ -1,0 +1,30 @@
+[
+  {
+    "name": "light",
+    "colors": {
+      "primary": "#ffffff",
+      "secondary": "#000000"
+    }
+  },
+  {
+    "name": "dark",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#ffffff"
+    }
+  },
+  {
+    "name": "blue",
+    "colors": {
+      "primary": "#1E3A8A",
+      "secondary": "#60A5FA"
+    }
+  },
+  {
+    "name": "pastel",
+    "colors": {
+      "primary": "#F9A8D4",
+      "secondary": "#FDE68A"
+    }
+  }
+]
