@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+
 const templatesPath = path.join(__dirname, 'templates.json');
 if (!fs.existsSync(templatesPath)) {
   console.error("Error: templates.json not found!");
@@ -22,12 +23,20 @@ if (!homepageFile) {
   console.error("Error: homepageFile not specified in configuration.");
   process.exit(1);
 }
+
 const homepageFilePath = path.join(__dirname, 'homepages', homepageFile);
 if (!fs.existsSync(homepageFilePath)) {
   console.error(`Error: Homepage file "${homepageFile}" not found in the homepages folder.`);
   process.exit(1);
 }
 const homepageContent = fs.readFileSync(homepageFilePath, 'utf-8');
+const templateMatch = homepageContent.match(/<template>([\s\S]*?)<\/template>/);
+if (!templateMatch) {
+  console.error("Error: No <template> block found in homepage file.");
+  process.exit(1);
+}
+const homepageTemplate = templateMatch[1].trim();
+
 const indexPath = path.join(__dirname, 'index.html');
 if (fs.existsSync(indexPath)) {
   let indexContent = fs.readFileSync(indexPath, 'utf-8');
@@ -37,10 +46,11 @@ if (fs.existsSync(indexPath)) {
 } else {
   console.warn("Warning: index.html not found.");
 }
+
 const homeVuePath = path.join(__dirname, 'src', 'views', 'Home.vue');
 if (fs.existsSync(homeVuePath)) {
   let homeContent = fs.readFileSync(homeVuePath, 'utf-8');
-  homeContent = homeContent.replace(/<div id="homepage-content">[\s\S]*?<\/div>/, `<div id="homepage-content">\n${homepageContent}\n</div>`);
+  homeContent = homeContent.replace(/<!--\s*homepage-content\s*-->/, homepageTemplate);
   fs.writeFileSync(homeVuePath, homeContent, 'utf-8');
   console.log(`Updated Home.vue with homepage content from "${homepageFile}".`);
 } else {

@@ -1,4 +1,3 @@
-# webshop-template
 # Dynamic Webshop Generator
 
 This repository provides a solution to generate multiple copies of a Vite+Vue webshop template with dynamic content. Each generated project can have its own title, homepage content, and theme settings by using external JSON configuration files.
@@ -9,7 +8,8 @@ This repository provides a solution to generate multiple copies of a Vite+Vue we
 - **themes.json**: Defines available themes and their color settings.
 - **configure.js**: A Node.js script that reads both configuration files and merges theme data into the project settings. It then injects dynamic content (e.g., title and homepage content) into the template files.
 - **generate-multiple.sh**: A Bash script that iterates over all entries in `templates.json`, clones the base webshop template, cleans up its Git history, installs dependencies, and runs `configure.js` to update the project with dynamic content.
-- **homepages/**: A folder containing HTML files (e.g., `home-1.html`, `home-2.html`, `home-3.html`) that serve as different homepage content options.
+- **homepages/**: A folder containing Vue component files (e.g., `home-1.vue`, `home-2.vue`, `home-3.vue`) that serve as homepage content options.
+- **src/views/Home.vue**: A Vue component with a placeholder comment (`<!-- homepage-content -->`) where the homepage content will be injected.
 
 ## Prerequisites
 
@@ -25,7 +25,7 @@ This repository provides a solution to generate multiple copies of a Vite+Vue we
    - `themes.json`
    - `configure.js`
    - `generate-multiple.sh`
-   - `homepages/` (with your homepage HTML files)
+   - `homepages/` (with your homepage Vue files)
 
 2. **Customize the Configuration Files**
 
@@ -36,13 +36,13 @@ This repository provides a solution to generate multiple copies of a Vite+Vue we
        {
          "projectName": "Sepatune.com",
          "title": "Sepatune.com",
-         "homepageFile": "home-1.html",
+         "homepageFile": "home-1.vue",
          "theme": "light"
        },
        {
          "projectName": "ToteKita.com",
          "title": "ToteKita.com",
-         "homepageFile": "home-2.html",
+         "homepageFile": "home-2.vue",
          "theme": "dark"
        }
        // ... more projects
@@ -84,10 +84,12 @@ This repository provides a solution to generate multiple copies of a Vite+Vue we
      ]
      ```
 
-3. **Prepare Homepage Files**  
-   In the `homepages/` folder, add your homepage HTML files (e.g., `home-1.html`, `home-2.html`, `home-3.html`). These files contain the HTML snippet or content that you want to inject into your Vue component.
-
-4. **Run the Generation Script**  
-   Make sure `generate-multiple.sh` is executable:
-   ```bash
-   chmod +x generate-multiple.sh
+3. **Prepare Homepage Vue Files**  
+   In the `homepages/` folder, add your homepage Vue files (e.g., `home-1.vue`, `home-2.vue`, `home-3.vue`). Each file should at minimum include a `<template>` block containing the homepage content. For example, `home-1.vue` might look like:
+   ```vue
+   <template>
+     <div>
+       <h1>Welcome to Sepatune!</h1>
+       <p>Your one-stop shop for quality products.</p>
+     </div>
+   </template>
